@@ -16,6 +16,33 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let string = "Howdy dummy 100"
+        
+        let number = 8
+        
+        let fullName = "Kenneth Patrick Cooke Jr"
+        
+        
+        print(string.whisper())
+        
+        print(string.shout())
+        
+        print(string.pigLatin)
+        
+        print(string.points)
+        
+        print(number.half())
+        
+        print(number.isDivisibleBy(2))
+        
+        print(number.squared)
+        
+        print(number.halved)
+        
+        print(string.unicornLevel)
+        
+        self.unicornLevelLabel.text = fullName.unicornLevel
+        
     }
 }
 

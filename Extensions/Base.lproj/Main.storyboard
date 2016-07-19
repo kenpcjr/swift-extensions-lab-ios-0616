@@ -22,12 +22,12 @@
                                 <rect key="frame" x="0.0" y="220" width="600" height="380"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  UNICORN LEVEL:" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFm-Nx-Pdr" userLabel="level label">
-                                        <rect key="frame" x="0.0" y="53" width="205.5" height="38"/>
+                                        <rect key="frame" x="0.0" y="53" width="206" height="38"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plU-1q-Mt6" userLabel="unicorns">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plU-1q-Mt6" userLabel="unicorns">
                                         <rect key="frame" x="20" y="91" width="300" height="95"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="316.5" id="G37-Vb-STZ"/>
@@ -49,11 +49,13 @@
                                     <constraint firstItem="aFm-Nx-Pdr" firstAttribute="height" secondItem="kQP-QH-bIk" secondAttribute="height" multiplier="10%" id="OnK-ZQ-hHz"/>
                                     <constraint firstItem="plU-1q-Mt6" firstAttribute="top" secondItem="aFm-Nx-Pdr" secondAttribute="bottom" id="VkE-aA-6FK"/>
                                     <constraint firstItem="plU-1q-Mt6" firstAttribute="height" secondItem="kQP-QH-bIk" secondAttribute="height" multiplier="25%" id="aG7-C7-ZX6"/>
+                                    <constraint firstItem="plU-1q-Mt6" firstAttribute="width" secondItem="kQP-QH-bIk" secondAttribute="width" id="bga-9m-PGo"/>
                                     <constraint firstItem="plU-1q-Mt6" firstAttribute="width" secondItem="kQP-QH-bIk" secondAttribute="width" multiplier="50%" id="nLd-fE-1nv"/>
                                     <constraint firstItem="plU-1q-Mt6" firstAttribute="leading" secondItem="aFm-Nx-Pdr" secondAttribute="trailing" id="ohY-lE-RO2"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="nLd-fE-1nv"/>
                                         <exclude reference="ohY-lE-RO2"/>
                                     </mask>
                                 </variation>
